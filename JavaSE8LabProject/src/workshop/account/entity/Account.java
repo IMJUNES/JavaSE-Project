@@ -1,8 +1,17 @@
 package workshop.account.entity;
 
 public class Account {
-	private String cusId;
+	private String custId;
 	private	String accId;
 	private int balance;
+	
+	//Method 선언
+	public void setCustId(String custId) {
+		this.custId = custId;
+	}
+	
+	public String getCustId() {
+		return custId;
+	}
 
 }
